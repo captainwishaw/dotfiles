@@ -10,6 +10,13 @@ Create a symbolic link from tmux.conf the git project file e.g.
 
     $ ln -s ~/git/dotfiles/tmux.conf ~/.tmux.conf
 
+GNOME GTK3
+----------
+
+Create a symbolic link from gtk.css the git project file e.g.
+
+    $ ln -s ~/git/dotfiles/gtk.css ~/.config/gtk-3.0/gtk.css
+
 
 License
 -------

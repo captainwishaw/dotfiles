@@ -17,7 +17,7 @@ headerbar separator {
 
  /* shrink ssd titlebars */
 .default-decoration {
-    min-height: 0; /* let the entry and button drive the titlebar size */ 
+    min-height: 0; /* let the entry and button drive the titlebar size */
     padding-left: 2px; /* same as childrens vertical margins for nicer proportions */
     padding-right: 2px;
     padding-top: 1px;
@@ -62,4 +62,3 @@ notebook button {
 widget {
     padding: 4px;
 }
-

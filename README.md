@@ -18,6 +18,14 @@ Create a symbolic link from gtk.css the git project file e.g.
     $ ln -s ~/git/dotfiles/gtk.css ~/.config/gtk-3.0/gtk.css
 
 
+Vim
+---
+
+Create a symbolic link from ~/.vimrc to the git project file e.g
+
+    $ ln -s ~/git/dotfiles/vimrc ~/.vimrc
+
+
 License
 -------
 

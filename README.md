@@ -25,6 +25,13 @@ Create a symbolic link from ~/.vimrc to the git project file e.g
 
     $ ln -s ~/git/dotfiles/vimrc ~/.vimrc
 
+Midnight Commander
+-----------------
+
+Create a symbolic link from ~/.config/mc/<file> to the git project file e.g
+
+    $ ln -s ~/git/dotfiles/midnightcommander/mc.ext ~/.config/mc/mc.ext
+    $ ln -s ~/git/dotfiles/midnightcommander/ini ~/.config/mc/ini
 
 License
 -------

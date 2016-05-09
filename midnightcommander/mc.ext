@@ -795,15 +795,18 @@ type/^Parity\ Archive\ Volume\ Set
 
 ### New ###
 
-regex/\.(yml)$
+regex/\.(yml|j2)$
+  Open=(atom %f &)
+
+regex/Dockerfile$
   Open=(atom %f &)
 
 ### Default ###
 
 # Default target for anything not described above
 default/*
-	Open=
-	View=
+	Open=%var{EDITOR:vim} %f
+	View=%var{EDITOR:vim} %f
 
 
 ### EOF ###

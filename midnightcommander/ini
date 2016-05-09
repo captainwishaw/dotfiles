@@ -5,8 +5,8 @@ shell_patterns=1
 auto_save_setup=1
 preallocate_space=0
 auto_menu=0
-use_internal_view=1
-use_internal_edit=1
+use_internal_view=0
+use_internal_edit=0
 clear_before_exec=1
 confirm_delete=1
 confirm_overwrite=1
@@ -86,11 +86,11 @@ skin=nicedark
 filepos_max_saved_entries=1024
 
 [Layout]
-message_visible=1
+message_visible=0
 keybar_visible=1
 xterm_title=1
 output_lines=0
-command_prompt=1
+command_prompt=0
 menubar_visible=1
 free_space=1
 horizontal_split=0

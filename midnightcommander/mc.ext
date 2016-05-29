@@ -801,6 +801,9 @@ regex/\.(yml|j2|sh)$
 regex/Dockerfile$
   Open=(atom %f &)
 
+regex/Vagrantfile$
+  Open=(atom %f &)
+
 ### Default ###
 
 # Default target for anything not described above

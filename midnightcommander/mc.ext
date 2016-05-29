@@ -795,7 +795,7 @@ type/^Parity\ Archive\ Volume\ Set
 
 ### New ###
 
-regex/\.(yml|j2)$
+regex/\.(yml|j2|sh)$
   Open=(atom %f &)
 
 regex/Dockerfile$
